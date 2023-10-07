@@ -1,15 +1,15 @@
 
 function addChef() {
-    const name = document.getElementById("name");
-    const lastName = document.getElementById("lastName");
+    const name = document.getElementById("name").value;
+    const lastName = document.getElementById("lastName").value;
     const age = document.getElementById("age").value;
-    const phoneNumber = document.getElementById("phoneNumber");
-    const experience = document.getElementById("experience");
-    const area = document.getElementById("area");
-    const cv = document.getElementById("cv");
-    const job1 = document.getElementById("job1").alue;
-    const job2 = document.getElementById("job2");
-    const job3 = document.getElementById("job3");
+    const phoneNumber = document.getElementById("phoneNumber").value;
+    const experience = document.getElementById("experience").value;
+    const area = document.getElementById("area").value;
+    const cv = document.getElementById("cv").value;
+    const job1 = document.getElementById("job1").value;
+    const job2 = document.getElementById("job2").value;
+    const job3 = document.getElementById("job3").value;
 
     const newChef = new Chef({
         name: name,
